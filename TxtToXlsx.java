@@ -33,7 +33,7 @@ public class TxtToXlsx {
 		for (int i = 0; i < xmlFormatList.size(); i++) {
 			String xmlLine = xmlFormatList.get(i);
 			String fixedXmlLine1 = xmlLine.replace(
-					"<data uid=\"measurement\">", "");
+					"<data uid=\"measurement\">", "");z
 			String fixedXmlLine2 = fixedXmlLine1.replace("</data>", "");
 			xmlFormatList.set(i, fixedXmlLine2);
 		}
